@@ -25,10 +25,10 @@ function showItemsList(){
                 <div>
                     <input type="checkbox" name="list" id="item-${index}" ${item.checked && "checked"}>
 
-                    <div class="custom-checkbox" onclick="checkItem('${item.name}')>
+                    <div class="custom-checkbox" onclick="checkItem('${item.name}')">
                         <img src="./assets/checked.svg" alt="checked">
                     </div>
-                    <label for="item-${index}">${item.name}</label>
+                    <label for="item-${index}" onclick =>${item.name}</label>
                 </div>
 
                 <button onclick = "removeItem('${item.name}')">
