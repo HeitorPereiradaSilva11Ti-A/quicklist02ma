@@ -54,3 +54,4 @@ function checkItem(itemName){
     item.checked = !item.checked
     showItemsList()
 }
+
