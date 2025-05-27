@@ -66,3 +66,5 @@ function checkItem(itemName){
     showItemsList()
 }
 
+
+
